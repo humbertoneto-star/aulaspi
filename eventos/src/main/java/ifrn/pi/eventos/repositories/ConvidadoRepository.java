@@ -9,6 +9,6 @@ import ifrn.pi.eventos.models.Evento;
 
 public interface ConvidadoRepository extends JpaRepository<Convidado, Long> {
 
-	List<Convidado> findByEvento(Evento evento);
+	List<Convidado> findByEvento (Evento evento);
 	
 }
